@@ -5,16 +5,16 @@ class Form{
     display(){
         var title = createElement('h2');
         title.html("survey");
-        title.position(130,0);
+        title.position(330,0);
 
         var inputname = createInput("name");
-        inputname.position(130,160);
+        inputname.position(330,160);
 
         var inputemail = createInput("email id");
-        inputemail.position(130,200);
+        inputemail.position(330,200);
         
         var button = createButton("vote");
-        button.position(250,250);
+        button.position(450,250);
 
         var greeting = createElement('h3');
 
