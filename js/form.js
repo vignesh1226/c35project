@@ -38,8 +38,8 @@ class Form{
                 voter.update(email);
                 voter.updateCount(voterCount);
 
-                greeting.html("Hello"+name);
-                greeting.position(130,160);
+                greeting.html("Hello "+name);
+                greeting.position(400,30);
 
                 question.html("Do you think we should donate money to corona fund?");
                 question.position(370,100);
